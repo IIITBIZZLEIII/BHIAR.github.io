@@ -103,6 +103,10 @@ input[type=text]:focus, input[type=email]:focus,textarea:focus
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
+.carousel-control-size{
+    width: 40%;
+    height: 10%;
+}
 .btn-primary{
   background-color: #4eb1e0;
   border: 1px solid #4eb1e0;
