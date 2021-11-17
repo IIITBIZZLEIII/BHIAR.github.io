@@ -315,7 +315,7 @@ figure {
   height: 100%;
 }-->
 <!--#fixed {
-  background-image: url('img/ai.jpg');
+  background-image: url(#);
   position: fixed;
   display: block;
   top: 0;
