@@ -151,6 +151,10 @@ input[type=text]:focus, input[type=email]:focus,textarea:focus
     border-bottom-right-radius:.90rem!important;
     border-bottom-left-radius:.90rem!important;
 }
+.title{
+        font-size:400%; 
+        color: #000000;
+}
 .jumbotron{
   padding:1rem;
   border-radius: 0;
