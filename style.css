@@ -163,15 +163,10 @@ input[type=text]:focus, input[type=email]:focus,textarea:focus
   padding-bottom: 2rem;
 }
 .welcome{
+  border-top: 4px solid #747474;
   width: 75%;
   margin:0 auto;
   padding-top: 2rem;
-}
-.welcome hr{
-  border-top: 4px solid #747474;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: 1rem;
 }
 .fa-code{
   color: #e54d26;
