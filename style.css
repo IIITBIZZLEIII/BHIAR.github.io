@@ -163,7 +163,7 @@ input[type=text]:focus, input[type=email]:focus,textarea:focus
   padding-bottom: 2rem;
 }
 .welcome{
-  border-top: 2.5px solid #747474;
+  border-top: 2.5px solid #8c8c8c;
   width: 75%;
   margin:0 auto;
   padding-top: 2rem;
