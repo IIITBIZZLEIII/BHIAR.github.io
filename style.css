@@ -1,3 +1,33 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@VentusSpiritus 
+IIITBIZZLEIII
+/
+IIITBIZZLEIII.github.io
+Public
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+IIITBIZZLEIII.github.io/style.css
+@IIITBIZZLEIII
+IIITBIZZLEIII Create style.css
+Latest commit c35fd26 36 minutes ago
+ History
+ 1 contributor
+314 lines (304 sloc)  5.14 KB
+   
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 html,body{
@@ -93,7 +123,7 @@ input[type=text]:focus, input[type=email]:focus,textarea:focus
   transform: translateY(-50%);
 }
 .carousel-caption h1{
-  front-size:500%;
+  font-size:400%;
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
 }
@@ -108,12 +138,18 @@ input[type=text]:focus, input[type=email]:focus,textarea:focus
     height: 10%;
 }
 .btn-primary{
-  background-color: #4eb1e0;
-  border: 1px solid #4eb1e0;
+  background-color: #b1b7b9;
+  border: 1px solid #b1b7b9;
 }
 .btn-primary:hover{
-  background-color: #3e8eb5;
-  border: 1px solid #3e8eb5;
+  background-color: #1e1e1f;
+  border: 1px solid #1e1e1f;
+}
+.btn-rounded-bottom{
+    border-top-right-radius:.0rem!important;
+    border-top-left-radius:.0rem!important;
+    border-bottom-right-radius:.90rem!important;
+    border-bottom-left-radius:.90rem!important;
 }
 .jumbotron{
   padding:1rem;
@@ -302,17 +338,25 @@ figure {
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
-
 Small (sm) devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
-
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
-
 Large (lg) devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
-
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
