@@ -51,7 +51,7 @@
 			<div class="col-10">				
 				<div class="card">
 		    		<div class="collapse-course">
-						<h5 class="card-header">Course 1111</h5>
+						<h5 class="card-header">Course 1111<span class="plus-minus">+</span></h5>
 		        			<div class="row g-0">
 								<div class="col-sm-3">
 									<img src="images/placeholder.jpg" class="card-img-top h-100" alt="..." style="left:10%; position: relative;">
@@ -82,7 +82,7 @@
 			<div class="col-10">				
 				<div class="card">
 		    		<div class="collapse-course">
-						<h5 class="card-header">Course 1219</h5>
+						<h5 class="card-header">Course 1219<span class="plus-minus">+</span></h5>
 		        			<div class="row g-0">
 								<div class="col-sm-3">
 									<img src="images/placeholder.jpg" class="card-img-top h-100" alt="..." style="left:10%; position: relative;">
@@ -114,7 +114,7 @@
 			<div class="col-10">				
 				<div class="card">
 		    		<div class="collapse-course">
-						<h5 class="card-header">Course 1219</h5>
+						<h5 class="card-header">Course 1219<span class="plus-minus">+</span></h5>
 		        			<div class="row g-0">
 								<div class="col-sm-3">
 									<img src="images/placeholder.jpg" class="card-img-top h-100" alt="..." style="left:10%; position: relative;">
@@ -177,20 +177,33 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>4
 </body>
 <script>
+	
+	//Convert cards into collapseable cards
     var coll = document.getElementsByClassName("collapse-course");    
     var i;
     
     for (i = 0; i < coll.length; i++) {
       coll[i].addEventListener("click", function() {
 		  var content = this.children[1].children[2];
+		  var plusSign = this.children[0].children[0];
 		//document.getElementById("demo").innerHTML = content.classList;
 		if (!content.classList.contains("reveal")) {
 		  content.classList.add("reveal");
+		  plusSign.classList.add("minus");
+		  plusSign.innerHTML = "-";
         } else {
 		  content.classList.remove("reveal");
+		  plusSign.classList.remove("minus");
+		  plusSign.innerHTML = "+";
         }
       });
     }
+	//End of convert cards into collapseable cards
 		
-    </script>	
+	//Search function (Searches all text of the card)
+	var coll = document.getElementsByClassName("collapse-course");    
+    var i;
+	//End of Search function
+
+    </script>		
 </html>
