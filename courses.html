@@ -144,12 +144,12 @@
     for (i = 0; i < coll.length; i++) {
       coll[i].addEventListener("click", function() {
         var content = this.children[1].children[2];
-        if (content.style.display === "none") {
-          content.style.display = "block";
+	if (!content.classList.contains("reveal")) {
+		content.classList.add("reveal");
         } else {
-          content.style.display = "none";
+		content.classList.remove("reveal");
         }
       });
     }
-    </script>	
+    </script>		
 </html>
