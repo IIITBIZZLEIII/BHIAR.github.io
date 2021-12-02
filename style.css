@@ -119,6 +119,9 @@ input[type=text]:focus, input[type=email]:focus,textarea:focus
 .test{
   border: 1px solid #000000;
 }
+.reveal{
+  display: block;
+}
 .collapse-course{
   display: block;
   text-decoration-line: none;
