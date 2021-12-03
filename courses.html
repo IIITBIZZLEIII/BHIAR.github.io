@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
 	<meta charset="UTF-8">
-	<meta name="description" content="BHIAR Website">
+	<meta name="description" content="Free Web tutorials">
 	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="John Doe">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bank Hall Institute for Action and Research</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
@@ -47,13 +51,18 @@
 
 <div class="container">
 <h2 class="text-center">Available Courses</h2>
+
+
 	<!--- Currently available course Cards -->
 	<div class="container-fluid padding">
 		<div class="row padding">
 
+			<input class="form-control course-search" type="search" placeholder="Search Our Courses..."> <p id="demo"></p>
 
-			<div class="col-10 mx-auto">				
-				<div class="card">
+			<div id="no-result" class="col-10"></div>
+
+			<div class="col-10">				
+				<div class="card card-search">
 		    		<div class="collapse-course">
 						<h5 class="card-header">Course 1111<span class="plus-minus">+</span></h5>
 		        			<div class="row g-0">
@@ -62,7 +71,7 @@
 								</div>
 							<div class="col-sm-9">
 				    			<div class="card-body">
-									<h5 class="card-title">Intro To *Class Title*</h5>
+									<h5 class="card-title">Intro To Barbering</h5>
 									<p id="firstParagraph" class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tellus diam, placerat eget quam non, mollis rutrum tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
 									<p class="card-text full-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tellus diam, placerat eget quam non, mollis rutrum tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
 									<!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
@@ -83,17 +92,17 @@
 
 
 			<br>
-			<div class="col-10 mx-auto">				
-				<div class="card">
+			<div class="col-10">				
+				<div class="card card-search">
 		    		<div class="collapse-course">
-						<h5 class="card-header">Course 1219<span class="plus-minus">+</span></h5>
+						<h5 class="card-header">Course 1244<span class="plus-minus">+</span></h5>
 		        			<div class="row g-0">
 								<div class="col-sm-3">
 									<img src="images/placeholder.jpg" class="card-img-top h-100 card-body" alt="...">
 								</div>
 							<div class="col-sm-9">
 				    			<div class="card-body">
-									<h5 class="card-title">Intro To *Class Title*</h5>
+									<h5 class="card-title">Intro To Welding</h5>
 									<p id="firstParagraph" class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tellus diam, placerat eget quam non, mollis rutrum tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
 									<p class="card-text full-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tellus diam, placerat eget quam non, mollis rutrum tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
 									<!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
@@ -115,8 +124,8 @@
 
 			<br>
 
-			<div class="col-10 mx-auto">				
-				<div class="card">
+			<div class="col-10">				
+				<div class="card card-search">
 		    		<div class="collapse-course">
 						<h5 class="card-header">Course 1219<span class="plus-minus">+</span></h5>
 		        			<div class="row g-0">
@@ -125,7 +134,7 @@
 								</div>
 							<div class="col-sm-9">
 				    			<div class="card-body">
-									<h5 class="card-title">Intro To *Class Title*</h5>
+									<h5 class="card-title">Intro To Upholstery</h5>
 									<p id="firstParagraph" class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tellus diam, placerat eget quam non, mollis rutrum tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
 									<p class="card-text full-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tellus diam, placerat eget quam non, mollis rutrum tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
 									<!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
@@ -178,10 +187,11 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>4
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 <script>
-	
+
 	//Convert cards into collapseable cards
     var coll = document.getElementsByClassName("collapse-course");    
     var i;
@@ -203,11 +213,75 @@
       });
     }
 	//End of convert cards into collapseable cards
-		
+	
+	
+
+//Textmatching helper
+function checkCardText(element, text){
+	if(element != null){
+		if(element.textContent.trim().toLowerCase().includes(text)){
+			return true;
+		}
+	}
+	return false;
+}
+
+
+//End of recursive helper function
+
 	//Search function (Searches all text of the card)
-	var coll = document.getElementsByClassName("collapse-course");    
-    var i;
+
+	//Grab all of the cards
+	var search = document.getElementsByClassName("card-search");    
+    var p;
+
+	var match = [];
+	var noMatch = [];
+	var iter = 0;
+	var count = 0;
+
+	$(".course-search").on("keyup", function(e){
+
+		match = [];
+	    noMatch = [];
+	    count = 0;
+
+		for(p = 0; p < search.length; p++){
+			count++;
+			if(this.value!=""){
+				if(checkCardText(search[p], this.value)){
+					match.push(search[p]);
+				}
+				else{
+					noMatch.push(search[p]);
+				}
+			}
+			else{
+				search[p].classList.remove("hide");
+			}
+		}
+		
+		//Hide cards without the searched phrase
+		for(iter = 0; iter < noMatch.length; iter++){
+			noMatch[iter].classList.add("hide");
+		}
+		//Show card with the searched phrase
+		for(iter = 0; iter < match.length; iter++){
+			match[iter].classList.remove("hide");
+		}
+
+		//Check if anything was even found
+		if((match.length <= 0) && (this.value != "")){
+			document.getElementById("no-result").innerHTML = "<p id='no-result' class='text-center margin-top-5'>Sorry, we couldn't find what you were looking for...</p>";
+		}
+		else{
+			document.getElementById("no-result").innerHTML = "";
+
+		}
+	});
 	//End of Search function
+
+
 
     </script>		
 </html>
