@@ -63,8 +63,8 @@
 
 			<div class="col-10">				
 				<div class="card card-search">
-		    		<div class="collapse-course">
-						<h5 class="card-header">Course 1111<span class="plus-minus">+</span></h5>
+		    		<div class="collapseable-style">
+						<h5 class="card-header collapse-course">Course 1111<span class="plus-minus">+</span></h5>
 		        			<div class="row g-0">
 								<div class="col-sm-3">
 									<img src="images/placeholder.jpg" class="card-img-top h-100 card-body" alt="...">
@@ -94,8 +94,8 @@
 			<br>
 			<div class="col-10">				
 				<div class="card card-search">
-		    		<div class="collapse-course">
-						<h5 class="card-header">Course 1244<span class="plus-minus">+</span></h5>
+		    		<div class="collapseable-style">
+						<h5 class="card-header collapse-course">Course 1244<span class="plus-minus">+</span></h5>
 		        			<div class="row g-0">
 								<div class="col-sm-3">
 									<img src="images/placeholder.jpg" class="card-img-top h-100 card-body" alt="...">
@@ -126,8 +126,8 @@
 
 			<div class="col-10">				
 				<div class="card card-search">
-		    		<div class="collapse-course">
-						<h5 class="card-header">Course 1219<span class="plus-minus">+</span></h5>
+		    		<div class="collapseable-style">
+						<h5 class="card-header collapse-course">Course 1219<span class="plus-minus">+</span></h5>
 		        			<div class="row g-0">
 								<div class="col-sm-3">
 									<img src="images/placeholder.jpg" class="card-img-top h-100 card-body" alt="...">
@@ -197,9 +197,9 @@
     var i;
     
     for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-		  var content = this.children[1].children[2];
-		  var plusSign = this.children[0].children[0];
+		coll[i].addEventListener("click", function() {
+		  var content = this.nextElementSibling.children[2]
+		  var plusSign = this.children[0];
 		//document.getElementById("demo").innerHTML = content.classList;
 		if (!content.classList.contains("reveal")) {
 		  content.classList.add("reveal");
