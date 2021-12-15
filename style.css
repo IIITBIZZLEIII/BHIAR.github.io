@@ -262,6 +262,9 @@ input[type=text]:focus, input[type=email]:focus,textarea:focus
   color: #d5d5d5;
   padding-top: 2rem;
 }
+.blockquote{
+ fontsize:unset;
+}
 hr.light{
   border-top: 1px solid #d5d5d5;
   width: 75%;
