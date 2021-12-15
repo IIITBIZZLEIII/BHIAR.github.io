@@ -271,10 +271,6 @@ hr.light{
 footer a{
   color: #d5d5d5;
 }
-.blockquote-footer{
- color: none;
-}
-
 hr.light-100{
   border-top: 1px solid #d5d5d5;
   width: 75%;
