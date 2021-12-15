@@ -123,7 +123,9 @@ input[type=text]:focus, input[type=email]:focus,textarea:focus
   display: block;
 }
 .hide{
-  display: none;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
 }
 .margin-top-5{
   margin-top:  5%;
