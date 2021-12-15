@@ -57,11 +57,11 @@
 	<div class="container-fluid padding">
 		<div class="row padding">
 
-			<!-- <input class="form-control course-search" type="search" placeholder="Search Testimonies..."> <p id="demo"></p>
+			 <input class="form-control course-search" type="search" placeholder="Search Testimonies..."> <p id="demo"></p>
 
 			<div id="no-result" class="col-10"></div>
 
-			<div class="col-12 card-search">				
+			<!--<div class="col-12 card-search">				
 				<h4 class="text-center">Course 1111 - Introduction to Barbering</h4>
                 <div class="col-12">
                     <h5>Jonh Doe</h5>
@@ -98,7 +98,8 @@
 			</div> -->
 			
 			<div class="card-columns">
-			  <div class="card p-3 text-right">
+
+			  <div class="card p-3 text-right card-search">
 			    <h5 class="card-title text-left">Course 1219 - Introduction to Upholstery</h5>
 			    <blockquote class="blockquote mb-0">
 			      <p>This is just an another example of a testimony. As before, actual testimonies will be formatted according to BHIAR.</p>
@@ -109,7 +110,8 @@
 			      </footer>
 			    </blockquote>
 			  </div>
-			  <div class="card p-3 text-right">
+
+			  <div class="card p-3 text-right card-search">
 		            <h5 class="card-title text-left">Course 1244 - Introduction to Welding</h5>
 			    <blockquote class="blockquote mb-0">
 			      <p>This is just an example of a testimony. Actual testimonies will be formatted according to BHIAR.</p>
@@ -120,7 +122,8 @@
 			      </footer>
 			    </blockquote>
 			  </div>
-		          <div class="card p-3 text-right">
+
+		          <div class="card p-3 text-right card-search">
 			    <blockquote class="blockquote mb-0">
 			      <h5 class="card-title text-left">Course 1111 - Introduction to Barbering</h5>    
 			      <p>This is just an example of a testimony. Actual testimonies will be formatted according to BHIAR.</p>
@@ -131,7 +134,8 @@
 			      </footer>
 			    </blockquote>
 			  </div>
-			  <div class="card p-3 text-right">
+
+			  <div class="card p-3 text-right card-search">
 			    <blockquote class="blockquote mb-0">
 			      <h5 class="card-title text-left">Course 1111 - Introduction to Biology</h5>
 			      <p>This is just an another example of a testimony. As before, actual testimonies will be formatted according to BHIAR.</p>
@@ -142,9 +146,10 @@
 			      </footer>
 			    </blockquote>
 			  </div>
-			  <div class="card p-3 text-right">
+
+			  <div class="card p-3 text-right card-search">
 			    <blockquote class="blockquote mb-0">
-			      <h5 class="card-title  text-left">Course 2411 - English (CXC)</h5>
+			      <h5 class="card-title text-left">Course 2411 - English (CXC)</h5>
 			      <p>This is just an example of a testimony. Actual testimonies will be formatted according to BHIAR.</p>
 			      <footer class="blockquote-footer">
 				<small class="text-muted">
@@ -153,7 +158,8 @@
 			      </footer>
 			    </blockquote>
 			  </div>
-			  <div class="card p-3 text-right">
+
+			  <div class="card p-3 text-right card-search">
 			    <blockquote class="blockquote mb-0">
 			      <h5 class="card-title  text-left">Course 1111 - Cake Icing </h5>
 			      <p>This is just an another example of a testimony. As before, actual testimonies will be formatted according to BHIAR.</p>
@@ -170,8 +176,6 @@
 	</div>
 </div>
 	
-
-<p id="demo"></p>
 
 <!--- Footer -->
 <footer class="pagefooter">
@@ -204,30 +208,6 @@
 </body>
 
 <script>
-
-	//Convert cards into collapseable cards
-    var coll = document.getElementsByClassName("collapse-course");    
-    var i;
-    
-    for (i = 0; i < coll.length; i++) {
-		coll[i].addEventListener("click", function() {
-		  var content = this.nextElementSibling.children[2]
-		  var plusSign = this.children[0];
-		//document.getElementById("demo").innerHTML = content.classList;
-		if (!content.classList.contains("reveal")) {
-		  content.classList.add("reveal");
-		  plusSign.classList.add("minus");
-		  plusSign.innerHTML = "-";
-        } else {
-		  content.classList.remove("reveal");
-		  plusSign.classList.remove("minus");
-		  plusSign.innerHTML = "+";
-        }
-      });
-    }
-	//End of convert cards into collapseable cards
-	
-	
 
 //Textmatching helper
 function checkCardText(element, text){
