@@ -220,7 +220,7 @@
 //Textmatching helper
 function checkCardText(element, text){
 	if(element != null){
-		if(element.textContent.trim().toLowerCase().includes(text)){
+		if(element.textContent.trim().toLowerCase().includes(text.toLowerCase())){
 			return true;
 		}
 	}
