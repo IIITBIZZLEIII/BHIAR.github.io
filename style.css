@@ -274,19 +274,12 @@ hr.light-100{
     top: 45%;
   }
   #CompanyName, #CompanySlogan{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 45px;
   }   
   #CourseAd1, #CourseAd2{
     font-weight: 500;
     font-size: 96px;
-  }
-  .carousel-caption h1{
-    front-size:350%;
-  }
-  .carousel-caption h3{
-   font-size: 140%;
-    font-weight:400;
   }
   .carousel-caption .btn{
     font-size: 95%;
@@ -311,12 +304,6 @@ hr.light-100{
   #CourseAd1, #CourseAd2{
     font-weight: 500;
     font-size: 53px;
-  }
-  .carousel-caption h1{
-    front-size:250%;
-  }
-  .carousel-caption h3{
-   font-size: 110%;
   }
   .carousel-caption .btn{
     font-size: 90%;
