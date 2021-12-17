@@ -269,6 +269,10 @@ hr.light-100{
     font-weight: 400;
     font-size: 105px;
   }
+  #btntext{
+    font-size: 32px;
+    font-weight:500;
+  }
 @media (max-width: 768px) {
   .carousel-caption{
     top: 45%;
@@ -284,6 +288,10 @@ hr.light-100{
   .carousel-caption .btn{
     font-size: 95%;
     padding: 8px 14px;
+  }
+  #btntext{
+    font-size: 34px;
+    font-weight:500;
   }
   .display-4{
     font-size: 200%;
@@ -308,6 +316,10 @@ hr.light-100{
   .carousel-caption .btn{
     font-size: 90%;
     padding: 4px 8px;
+  }
+  #btntext{
+    font-size: 25px;
+    font-weight:500;
   }
    .display-4{
     font-size: 160%;
