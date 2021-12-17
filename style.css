@@ -188,7 +188,7 @@ input[type=text]:focus, input[type=email]:focus,textarea:focus
   padding-top: 2rem;
 }
 #CompanyName, #CompanySlogan, #CourseAd1, #CourseAd2{
-  text-shadow: 2px 1.5px 4.5px #111111;
+  text-shadow: 2px 1.5px 5px #111111;
 }
 .fa-code{
   color: #e54d26;
@@ -256,22 +256,30 @@ hr.light-100{
   margin-bottom: 1rem;
 }
 /*---Media Queries --*/
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .social a {
     font-size: 4em;
     padding: 2rem;
   }
-  #CompanyName, #CompanySlogan, #CourseAd1, #CourseAd2{
-  font-weight: bold;
-  font-size: 18px;
+  #CompanyName, #CompanySlogan{
+    font-weight: 500;
+    font-size: 85px;
+  }
+  #CourseAd1, #CourseAd2{
+    font-weight: 500;
+    font-size: 105px;
   }
 @media (max-width: 768px) {
   .carousel-caption{
     top: 45%;
   }
-  #CompanyName, #CompanySlogan, #CourseAd1, #CourseAd2{
-  font-weight: bold;
-  font-size: 14px;
+  #CompanyName, #CompanySlogan{
+    font-weight: 500;
+    font-size: 45px;
+  }   
+  #CourseAd1, #CourseAd2{
+    font-weight: 500;
+    font-size: 96px;
   }
   .carousel-caption h1{
     front-size:350%;
@@ -296,9 +304,13 @@ hr.light-100{
   .carousel-caption{
     top: 40%;
   }
-  #CompanyName, #CompanySlogan, #CourseAd1, #CourseAd2{
-  font-weight: bold;
-  font-size: 12px;
+  #CompanyName, #CompanySlogan{
+    font-weight: 500;
+    font-size: 39px;
+  }
+  #CourseAd1, #CourseAd2{
+    font-weight: 500;
+    font-size: 53px;
   }
   .carousel-caption h1{
     front-size:250%;
