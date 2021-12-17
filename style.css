@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@VentusSpiritus 
-IIITBIZZLEIII
-/
-IIITBIZZLEIII.github.io
-Public
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-IIITBIZZLEIII.github.io/style.css
-@IIITBIZZLEIII
-IIITBIZZLEIII Create style.css
-Latest commit c35fd26 36 minutes ago
- History
- 1 contributor
-314 lines (304 sloc)  5.14 KB
-   
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 html,body{
@@ -348,10 +318,6 @@ hr.light-100{
     padding: .7rem;
   }
 }
-.storeimg{
-  height: 225px;
-  width: 225px;
-}
 /*---Firefox Bug Fix --*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
@@ -378,16 +344,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
